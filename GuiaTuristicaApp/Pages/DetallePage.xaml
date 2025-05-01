@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GuiaTuristicaApp.Pages.DetallePage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label Text="Alhóndiga" FontSize="50" Margin="0,0,0,20"></Label>
+                <Label Text="Descripción ..."></Label>
+                <HorizontalStackLayout HorizontalOptions="Center">
+                    <Image
+                        WidthRequest="100"
+                        HeightRequest="100"
+                        Source="https://www.freeiconspng.com/uploads/maps-icon-28.png"></Image>
+                    <Image
+                        WidthRequest="100"
+                        HeightRequest="100"
+                        Source="https://cdn-icons-png.flaticon.com/512/1040/1040241.png"></Image>
+                </HorizontalStackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

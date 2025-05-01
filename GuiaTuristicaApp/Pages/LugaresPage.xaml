@@ -5,15 +5,6 @@
              x:Class="GuiaTuristicaApp.Pages.LugaresPage"
              Title="Lugares">
     <ContentPage.Content>
-        <ScrollView>
-            <StackLayout>
-                <ImageButton></ImageButton>
-                <ImageButton></ImageButton>
-                <ImageButton></ImageButton>
-                <ImageButton></ImageButton>
-                <ImageButton></ImageButton>
-                <ImageButton></ImageButton>
-            </StackLayout>
-        </ScrollView>
+        
     </ContentPage.Content>
 </ContentPage>
