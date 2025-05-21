@@ -31,9 +31,6 @@
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Fill" />
             
-            <Button x:Name="btnVerDetalle" Text="Ver detalle" 
-                    Clicked="BtnVerDetalle_OnClicked"></Button>
-            
         </VerticalStackLayout>
     </ScrollView>
 

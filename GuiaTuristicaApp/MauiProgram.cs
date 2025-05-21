@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using GuiaTuristicaApp.Services;
+using Microsoft.Extensions.Logging;
 
 namespace GuiaTuristicaApp;
 
@@ -14,6 +15,9 @@ public static class MauiProgram
                 fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                 fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
             });
+        
+        builder.Services.AddSingleton<HttpClient>();
+        builder.Services.AddSingleton<IAPIService, APIService>();
 
 #if DEBUG
         builder.Logging.AddDebug();

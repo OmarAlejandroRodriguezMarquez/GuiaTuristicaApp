@@ -6,13 +6,13 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
-                <Label Text="Alhóndiga" FontSize="50" Margin="0,0,0,20"></Label>
-                <Label Text="Descripción ..."></Label>
+                <Label Text="{Binding Nombre}" FontSize="30" Margin="0,0,0,20" HorizontalTextAlignment="Center" HorizontalOptions="Center"></Label>
+                <Label Text="{Binding Descripcion}"></Label>
                 <HorizontalStackLayout HorizontalOptions="Center">
                     <Image
                         WidthRequest="100"
                         HeightRequest="100"
-                        Source="https://www.freeiconspng.com/uploads/maps-icon-28.png"></Image>
+                        Source="{Binding Imagen}"></Image>
                     <Image
                         WidthRequest="100"
                         HeightRequest="100"

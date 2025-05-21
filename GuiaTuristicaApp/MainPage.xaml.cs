@@ -22,9 +22,4 @@ public partial class MainPage : ContentPage
 
         SemanticScreenReader.Announce(CounterBtn.Text);
     }
-
-    private async void BtnVerDetalle_OnClicked(object? sender, EventArgs e)
-    {
-        await Navigation.PushAsync(new DetallePage());
-    }
 }
